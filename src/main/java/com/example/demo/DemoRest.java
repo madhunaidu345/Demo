@@ -4,7 +4,7 @@ public class DemoRest {
 
 public void main()
 {
-   System.out.println("DEMO APPLICATION");
+   System.out.println("DEMO APPLICATION1");
 }
 
 }
