@@ -4,6 +4,7 @@ public class DemoRest {
 
 public void main()
 {
+  System.out.println("Hello");
 }
 
 }
