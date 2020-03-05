@@ -1,0 +1,14 @@
+- executor: molotov
+  concurrency: 1
+  hold-for: 10s
+  iterations: 10
+  scenario:
+    script: molotov/blazedemo.py
+
+- executor: apiritif
+  concurrency: 1
+  hold-for: 10s
+  scenario:
+    requests:
+      - url: http://localhost:8000/
+        label: apiritif
