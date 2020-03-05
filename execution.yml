@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+=======
+- executor: molotov
+  concurrency: 1
+  hold-for: 10s
+  iterations: 10
+  scenario:
+    script: molotov/blazedemo.py
+
+- executor: apiritif
+  concurrency: 1
+  hold-for: 10s
+  scenario:
+    requests:
+      - url: http://10.140.1.80:8080/job/github_Demo/
+        label: apiritif
+>>>>>>> 708146a340e1b53b538d5e58559dcc52cf82accf
