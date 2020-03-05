@@ -3,5 +3,5 @@
   hold-for: 10s
   scenario:
     requests:
-      - url: https://github.com/madhunaidu345/Demo/
+      - url: http://10.140.1.80:8080/job/github_Demo/
         label: apiritif
