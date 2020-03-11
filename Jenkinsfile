@@ -13,19 +13,5 @@ pipeline {
         sh 'mvn clean install'
       }
     }
-    stage('Docker Build') {
-      agent any
-      steps {
-        sh 'docker build -t shanem/spring-demo:latest .'
-      }
-    }
-    stage('Docker Push') {
-      agent any
-      steps {
-      
-          sh 'docker push shanem/spring-demo:latest'
-        
-      }
-    }
   }
 }
