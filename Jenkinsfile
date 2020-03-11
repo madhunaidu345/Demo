@@ -13,5 +13,10 @@ pipeline {
         sh 'mvn clean install'
       }
     }
+<<<<<<< HEAD
     }
 }
+=======
+  }
+}
+>>>>>>> a291300b8120689722db01136ddcf6041184403e
